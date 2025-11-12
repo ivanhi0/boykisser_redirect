@@ -2,7 +2,7 @@
 //determinate where user located
 const countrcode = document.getElementById('countryCode');
 
-fetch('http://ip-api.com/json/?fields=61439')
+fetch('https://ip-api.com/json/?fields=61439')
   .then(res => res.json())
   .then(res => {
     countrcode.textcontext = res.countryCode;

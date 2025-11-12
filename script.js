@@ -1,11 +1,11 @@
 // hahaha I got you
 //determinate where user located
-const countrcode = document.getElementById('countryCode');
+const countrcode = document.getElementById('country_code');
 
-fetch('https://ip-api.com/json/?fields=61439')
+fetch('https://ipapi.co/json/')
   .then(res => res.json())
   .then(res => {
-    countrcode.textcontext = res.countryCode;
+    countrcode.textcontext = res.country_code;
   });
 
 // Redirect user based on his country location because YouTube bloked in Russia

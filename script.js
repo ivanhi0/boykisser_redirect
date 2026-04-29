@@ -9,10 +9,10 @@ fetch('https://ipwho.is/')
 
     // Redirect user based on his country location because YouTube bloked in Russia
     if (countryCode == "RU") {
-      window.location.href = "https://rutube.ru/video/ac4ac2f35c35fe2dc78e9a66c48097cb";
-      window.location.replace("https://rutube.ru/video/ac4ac2f35c35fe2dc78e9a66c48097cb");
+      window.location.href = "https://xn--80aabtwbbuhbiqdxddn.xn--p1ai";
+      window.location.replace("https://xn--80aabtwbbuhbiqdxddn.xn--p1ai");
     } else {
-    window.location.href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ";
-    window.location.replace("https://www.youtube.com/watch?v=dQw4w9WgXcQ");
+    window.location.href = "https://xn--80aabtwbbuhbiqdxddn.xn--p1ai";
+    window.location.replace("https://xn--80aabtwbbuhbiqdxddn.xn--p1ai");
     }
   });
